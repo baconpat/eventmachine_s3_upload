@@ -1,0 +1,18 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    addressable (2.2.6)
+    em-http-request (0.3.0)
+      addressable (>= 2.0.0)
+      escape_utils
+      eventmachine (>= 0.12.9)
+    escape_utils (0.2.3)
+    eventmachine (0.12.10)
+    happening (0.2.0)
+      em-http-request
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  happening (= 0.2.0)
